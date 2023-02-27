@@ -15,7 +15,7 @@
         3. Bolds the text of your operation buttons (i.e. "+", "=", etc.)
 
 
-## Set up
+## Set Up
 1. Create an `index.html` file and a `main.scss`.
 1. Use your Sass compiler to compile your Sass files to CSS.
 1. Link the CSS file to `index.html`
