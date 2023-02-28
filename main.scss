@@ -25,7 +25,7 @@ h1{
     height: 80px;
     margin-left: 836px;
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     border: 1px solid white;
 }
 #division{
@@ -107,18 +107,42 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 8{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #eight{
 display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 8{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #seven{
 display: flex;
 margin-top: -80px;
 margin-left: 461px;
 padding-left: 45px;
+    &:hover{
+    @for $i from 1 through 8{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #minus{
 width: 127px;
@@ -135,18 +159,42 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 13{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #five{
 display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 14{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #four{
 display: flex;
 margin-top: -80px;
 margin-left: 461px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 15{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #add{
     width: 127px;
@@ -163,18 +211,42 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 17{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #two{
 display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 18{
+        &:nth-of-type(#{$i}){
+            background-color: #fcb1a8;
+            font-size: 60px;
+        }
+    }
+}
 }
 #one{
     display: flex;
     margin-top: -80px;
     margin-left: 461px;
     padding-left: 45px;
+    &:hover{
+        @for $i from 1 through 19{
+            &:nth-of-type(#{$i}){
+                background-color: #fcb1a8;
+                font-size: 60px;
+            }
+        }
+    }
 }
 #equals{
     width: 127px;
@@ -206,6 +278,14 @@ padding-left: 45px;
     padding-left: 45px;
     width: 250px;
     padding-left: 110px;
+    &:hover{
+        @for $i from 1 through 19{
+            &:nth-of-type(#{$i}){
+                background-color: #fcb1a8;
+                font-size: 60px;
+            }
+        }
+    }
 }
 
 // LOOPS

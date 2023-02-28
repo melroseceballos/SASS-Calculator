@@ -23,7 +23,7 @@ h1 {
   height: 80px;
   margin-left: 836px;
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   border: 1px solid white;
 }
 
@@ -136,6 +136,38 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
+#nine:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#nine:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #eight {
   display: flex;
@@ -143,12 +175,76 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
+#eight:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#eight:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #seven {
   display: flex;
   margin-top: -80px;
   margin-left: 461px;
   padding-left: 45px;
+}
+#seven:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#seven:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
 }
 
 #minus {
@@ -197,6 +293,58 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
+#six:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#six:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #five {
   display: flex;
@@ -204,12 +352,128 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
+#five:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#five:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #four {
   display: flex;
   margin-top: -80px;
   margin-left: 461px;
   padding-left: 45px;
+}
+#four:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#four:hover:nth-of-type(15) {
+  background-color: #fcb1a8;
+  font-size: 60px;
 }
 
 #add {
@@ -270,6 +534,74 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
+#three:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(15) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(16) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#three:hover:nth-of-type(17) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #two {
   display: flex;
@@ -277,12 +609,160 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
+#two:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(15) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(16) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(17) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#two:hover:nth-of-type(18) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
 
 #one {
   display: flex;
   margin-top: -80px;
   margin-left: 461px;
   padding-left: 45px;
+}
+#one:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(15) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(16) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(17) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(18) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#one:hover:nth-of-type(19) {
+  background-color: #fcb1a8;
+  font-size: 60px;
 }
 
 #equals {
@@ -414,4 +894,80 @@ h1 {
   padding-left: 45px;
   width: 250px;
   padding-left: 110px;
+}
+#zero:hover:nth-of-type(1) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(2) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(3) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(4) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(5) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(6) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(7) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(8) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(9) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(10) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(11) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(12) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(13) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(14) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(15) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(16) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(17) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(18) {
+  background-color: #fcb1a8;
+  font-size: 60px;
+}
+#zero:hover:nth-of-type(19) {
+  background-color: #fcb1a8;
+  font-size: 60px;
 }/*# sourceMappingURL=main.css.map */
