@@ -1,0 +1,135 @@
+body{
+background-color: $darktheme;
+}
+h1{
+    text-align: center;
+    
+}
+#calScreen{
+    background-color: silver;
+    height: 150px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    opacity: 0.7;
+    border: 1px solid black;
+}
+.calBody{
+    background-color: salmon;
+    width: 125px;
+    height: 80px;
+    margin-left: 836px;
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid white;
+}
+#percent{
+    margin-top: -82px;
+    margin-left: 711px;
+    display: flex;    
+    height: 82px;
+    padding-left: 35px
+}
+#plusMinus{
+    margin-top: -82px;
+    margin-left: 586px;
+    font-size: 60px;
+    display: flex;
+    height: 82px;
+    padding-left: 35px
+}
+#c{
+    margin-top: -82px;
+    margin-left: 461px;
+    display: flex;
+    text-align: center;
+    height: 82px;
+    padding-left: 35px
+}
+#times{
+    display: flex;
+    margin-left: 836px;
+    width: 127px;
+    padding-left: 45px;
+}
+#nine{
+display: flex;
+margin-top: -80px;
+margin-left: 711px;
+padding-left: 45px;
+}
+#eight{
+display: flex;
+margin-top: -80px;
+margin-left: 586px;
+padding-left: 45px;
+}
+#seven{
+display: flex;
+margin-top: -80px;
+margin-left: 461px;
+padding-left: 45px;
+}
+#minus{
+width: 127px;
+}
+#six{
+display: flex;
+margin-top: -80px;
+margin-left: 711px;
+padding-left: 45px;
+}
+#five{
+display: flex;
+margin-top: -80px;
+margin-left: 586px;
+padding-left: 45px;
+}
+#four{
+display: flex;
+margin-top: -80px;
+margin-left: 461px;
+padding-left: 45px;
+}
+#add{
+    width: 127px;
+}
+#three{
+display: flex;
+margin-top: -80px;
+margin-left: 711px;
+padding-left: 45px;
+}
+#two{
+display: flex;
+margin-top: -80px;
+margin-left: 586px;
+padding-left: 45px;
+}
+#one{
+    display: flex;
+    margin-top: -80px;
+    margin-left: 461px;
+    padding-left: 45px;
+}
+#equals{
+    width: 127px;
+}
+#decimal{
+display: flex;
+margin-top: -80px;
+margin-left: 711px;
+padding-left: 45px;
+}
+#zero{
+    display: flex;
+    margin-top: -80px;
+    margin-left: 461px;
+    padding-left: 45px;
+    width: 250px;
+    padding-left: 110px;
+}
+ // VARIABLES
+$light-theme: white;
+$darktheme: black;
+
