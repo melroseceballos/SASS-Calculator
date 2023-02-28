@@ -9,7 +9,7 @@
     - Create a mixin that can change the theme of the calculator from dark mode to light mode, depending on what argument is passed to the mixin
     - Using arithmetic operators, make your calculator resize in relation to the screen size
         - Example:  `width: 2rem + 1vw;`
-    - Create a hover effect for each number button on the claculator that does the following inside a for loop:
+    - Create a hover effect for each number button on the calculator that does the following inside a for loop:
         1. Decreases the size of all other number buttons on the calculator
         2. Darkens all other number buttons 
         3. Bolds the text of your operation buttons (i.e. "+", "=", etc.)
