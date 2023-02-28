@@ -1,3 +1,8 @@
+body {
+  background-color: white;
+  color: black;
+}
+
 h1 {
   text-align: center;
 }
@@ -22,12 +27,46 @@ h1 {
   border: 1px solid white;
 }
 
+#division {
+  background-color: salmon;
+  width: 125px;
+  height: 80px;
+  margin-left: 836px;
+  text-align: center;
+  font-size: 60px;
+  border: 1px solid white;
+}
+#division:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#division:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#division:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#division:hover:nth-of-type(4) {
+  font-weight: 700;
+}
+
 #percent {
   margin-top: -82px;
   margin-left: 711px;
   display: flex;
   height: 82px;
   padding-left: 35px;
+}
+#percent:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#percent:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#percent:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#percent:hover:nth-of-type(4) {
+  font-weight: 700;
 }
 
 #plusMinus {
@@ -38,6 +77,18 @@ h1 {
   height: 82px;
   padding-left: 35px;
 }
+#plusMinus:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#plusMinus:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#plusMinus:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#plusMinus:hover:nth-of-type(4) {
+  font-weight: 700;
+}
 
 #c {
   margin-top: -82px;
@@ -47,12 +98,36 @@ h1 {
   height: 82px;
   padding-left: 35px;
 }
+#c:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#c:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#c:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#c:hover:nth-of-type(4) {
+  font-weight: 700;
+}
 
 #times {
   display: flex;
   margin-left: 836px;
   width: 127px;
   padding-left: 45px;
+}
+#times:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#times:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#times:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#times:hover:nth-of-type(4) {
+  font-weight: 700;
 }
 
 #nine {
@@ -79,6 +154,42 @@ h1 {
 #minus {
   width: 127px;
 }
+#minus:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(4) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(5) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(6) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(7) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(8) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(9) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(10) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(11) {
+  font-weight: 700;
+}
+#minus:hover:nth-of-type(12) {
+  font-weight: 700;
+}
 
 #six {
   display: flex;
@@ -103,6 +214,54 @@ h1 {
 
 #add {
   width: 127px;
+}
+#add:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(4) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(5) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(6) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(7) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(8) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(9) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(10) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(11) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(12) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(13) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(14) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(15) {
+  font-weight: 700;
+}
+#add:hover:nth-of-type(16) {
+  font-weight: 700;
 }
 
 #three {
@@ -129,12 +288,123 @@ h1 {
 #equals {
   width: 127px;
 }
+#equals:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(4) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(5) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(6) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(7) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(8) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(9) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(10) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(11) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(12) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(13) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(14) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(15) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(16) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(17) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(18) {
+  font-weight: 700;
+}
+#equals:hover:nth-of-type(19) {
+  font-weight: 700;
+}
 
 #decimal {
   display: flex;
   margin-top: -80px;
   margin-left: 711px;
   padding-left: 45px;
+}
+#decimal:hover:nth-of-type(1) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(2) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(3) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(4) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(5) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(6) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(7) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(8) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(9) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(10) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(11) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(12) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(13) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(14) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(15) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(16) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(17) {
+  font-weight: 700;
+}
+#decimal:hover:nth-of-type(18) {
+  font-weight: 700;
 }
 
 #zero {

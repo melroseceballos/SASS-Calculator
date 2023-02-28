@@ -1,5 +1,10 @@
+// IMPORT
+@import '_colorstheme.scss';
+
+
 body{
-background-color: $darktheme;
+    background-color: $lighttheme;
+    color: black;
 }
 h1{
     text-align: center;
@@ -23,12 +28,35 @@ h1{
     font-size: 60px;
     border: 1px solid white;
 }
+#division{
+    background-color: salmon;
+    width: 125px;
+    height: 80px;
+    margin-left: 836px;
+    text-align: center;
+    font-size: 60px;
+    border: 1px solid white;
+    &:hover{
+        @for $i from 1 through 4{
+            &:nth-of-type(#{$i}){
+                font-weight: 700;
+            }
+        }
+    }
+}
 #percent{
     margin-top: -82px;
     margin-left: 711px;
     display: flex;    
     height: 82px;
-    padding-left: 35px
+    padding-left: 35px;
+        &:hover{
+        @for $i from 1 through 4{
+            &:nth-of-type(#{$i}){
+                font-weight: 700;
+            }
+        }
+    }
 }
 #plusMinus{
     margin-top: -82px;
@@ -36,7 +64,14 @@ h1{
     font-size: 60px;
     display: flex;
     height: 82px;
-    padding-left: 35px
+    padding-left: 35px;
+        &:hover{
+            @for $i from 1 through 4{
+                &:nth-of-type(#{$i}){
+                    font-weight: 700;
+                }
+            }
+        }
 }
 #c{
     margin-top: -82px;
@@ -44,13 +79,28 @@ h1{
     display: flex;
     text-align: center;
     height: 82px;
-    padding-left: 35px
+    padding-left: 35px;
+    &:hover{
+        @for $i from 1 through 4 {
+            &:nth-of-type(#{$i})  {
+                font-weight: 700;
+            }
+        }
+       
+    }
 }
 #times{
     display: flex;
     margin-left: 836px;
     width: 127px;
     padding-left: 45px;
+    &:hover{
+        @for $i from 1 through 4{
+            &:nth-of-type(#{$i}){
+                font-weight: 700;
+            }
+        }
+    }
 }
 #nine{
 display: flex;
@@ -72,6 +122,13 @@ padding-left: 45px;
 }
 #minus{
 width: 127px;
+    &:hover{
+    @for $i from 1 through 12{
+        &:nth-of-type(#{$i}){
+            font-weight: 700;
+        }
+    }
+}
 }
 #six{
 display: flex;
@@ -93,6 +150,13 @@ padding-left: 45px;
 }
 #add{
     width: 127px;
+    &:hover{
+        @for $i from 1 through 16{
+            &:nth-of-type(#{$i}){
+                font-weight: 700;
+            }
+        }
+    }
 }
 #three{
 display: flex;
@@ -114,12 +178,26 @@ padding-left: 45px;
 }
 #equals{
     width: 127px;
+    &:hover{
+        @for $i from 1 through 19{
+            &:nth-of-type(#{$i}){
+                font-weight: 700;
+            }
+        }
+    }
 }
 #decimal{
 display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
+&:hover{
+    @for $i from 1 through 18{
+        &:nth-of-type(#{$i}){
+            font-weight: 700;
+        }
+    }
+}
 }
 #zero{
     display: flex;
@@ -129,7 +207,15 @@ padding-left: 45px;
     width: 250px;
     padding-left: 110px;
 }
- // VARIABLES
-$light-theme: white;
-$darktheme: black;
 
+// LOOPS
+        //Please let me know if I did this loop correctly - unsure how to test it.
+@mixin theme ($bodytheme){
+@if $bodytheme == $lighttheme{
+    background-color: white;
+    color: black;
+}
+@else {
+    background-color: $darktheme;
+}
+}
