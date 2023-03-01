@@ -57,6 +57,7 @@ h1{
         }
     }
 }
+
 #percent{
     margin-top: -82px;
     margin-left: 711px;
@@ -120,27 +121,44 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
-&:hover{
     @for $i from 1 through 8{
         &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+            &:hover{
+                ~.number{
+                    scale: 90%;
+                    font-size: 55px;
+                    background-color: gray;
+                }
+                }
+            }
         }
+            &:has(~.number:hover){
+                scale: 95%;
+                background-color: gray;
+            }
+          
     }
-}
-}
 #eight{
 display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 8{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 8{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+                
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 90%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #seven{
@@ -148,13 +166,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 461px;
 padding-left: 45px;
-    &:hover{
-    @for $i from 1 through 8{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 19{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #minus{
@@ -172,13 +198,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 13{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 21{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #five{
@@ -186,13 +220,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 14{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 11{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #four{
@@ -200,13 +242,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 461px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 15{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 11{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #add{
@@ -224,13 +274,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 711px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 17{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 17{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 90%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 90%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #two{
@@ -238,13 +296,21 @@ display: flex;
 margin-top: -80px;
 margin-left: 586px;
 padding-left: 45px;
-&:hover{
-    @for $i from 1 through 18{
-        &:nth-of-type(#{$i}){
-            background-color: #fcb1a8;
-            font-size: 60px;
+@for $i from 1 through 18{
+    &:nth-of-type(#{$i}){
+        &:hover{
+            ~.number{
+                scale: 95%;
+                font-size: 55px;
+                background-color: gray;
+            }
         }
     }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
 }
 }
 #one{
@@ -252,13 +318,21 @@ padding-left: 45px;
     margin-top: -80px;
     margin-left: 461px;
     padding-left: 45px;
-    &:hover{
-        @for $i from 1 through 19{
-            &:nth-of-type(#{$i}){
-                background-color: #fcb1a8;
-                font-size: 60px;
+    @for $i from 1 through 19{
+        &:nth-of-type(#{$i}){
+            &:hover{
+                ~.number{
+                    scale: 90%;
+                    font-size: 55px;
+                    background-color: gray;
+                }
             }
         }
+            &:has(~.number:hover){
+                scale: 95%;
+                font-size: 55px;
+                background-color: gray;
+            }
     }
 }
 #equals{
@@ -294,13 +368,18 @@ padding-left: 45px;
     &:hover{
         @for $i from 1 through 19{
             &:nth-of-type(#{$i}){
+                scale: 95%;
                 background-color: #fcb1a8;
                 font-size: 60px;
             }
         }
+        &:has(~.number:hover){
+            scale: 95%;
+            font-size: 55px;
+            background-color: gray;
+        }
     }
 }
-
 // LOOPS
         //Please let me know if I did this loop correctly - unsure how to test it.
 @mixin theme ($bodytheme){

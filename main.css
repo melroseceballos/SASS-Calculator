@@ -148,37 +148,49 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
-#nine:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#nine:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#nine:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#nine:has(~ .number:hover) {
+  scale: 95%;
+  background-color: gray;
 }
 
 #eight {
@@ -187,37 +199,85 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
-#eight:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#eight:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#eight:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #seven {
@@ -226,37 +286,195 @@ h1 {
   margin-left: 461px;
   padding-left: 45px;
 }
-#seven:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#seven:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(12):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(13):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(14):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(15):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(16):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(17):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(18):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:nth-of-type(19):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#seven:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #minus {
@@ -305,57 +523,215 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
-#six:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#six:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#six:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(12):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(13):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(14):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(15):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(16):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(17):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(18):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(19):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(20):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:nth-of-type(21):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#six:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #five {
@@ -364,61 +740,115 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
-#five:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#five:hover:nth-of-type(14) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#five:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #four {
@@ -427,65 +857,115 @@ h1 {
   margin-left: 461px;
   padding-left: 45px;
 }
-#four:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(14) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#four:hover:nth-of-type(15) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#four:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#four:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #add {
@@ -546,73 +1026,175 @@ h1 {
   margin-left: 711px;
   padding-left: 45px;
 }
-#three:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(14) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(15) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(16) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#three:hover:nth-of-type(17) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#three:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(12):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(13):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(14):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(15):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(16):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:nth-of-type(17):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#three:has(~ .number:hover) {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #two {
@@ -621,77 +1203,185 @@ h1 {
   margin-left: 586px;
   padding-left: 45px;
 }
-#two:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(1):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(2):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(3):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(4):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(5):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(6):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(7):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(14) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(15) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(8):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(16) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(17) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:nth-of-type(9):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#two:hover:nth-of-type(18) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(10):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(11):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(12):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(13):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(14):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(15):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(16):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(17):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:nth-of-type(18):hover ~ .number {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#two:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #one {
@@ -700,81 +1390,195 @@ h1 {
   margin-left: 461px;
   padding-left: 45px;
 }
-#one:hover:nth-of-type(1) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(1):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(2) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(3) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(2):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(4) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(5) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(3):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(6) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(7) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(4):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(8) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(9) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(5):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(10) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(11) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(6):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(12) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(13) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(7):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(14) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(15) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(8):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(16) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(17) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(9):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(18) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
-#one:hover:nth-of-type(19) {
-  background-color: #fcb1a8;
-  font-size: 60px;
+#one:nth-of-type(10):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(11):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(12):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(13):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(14):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(15):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(16):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(17):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(18):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:nth-of-type(19):hover ~ .number {
+  scale: 90%;
+  font-size: 55px;
+  background-color: gray;
+}
+#one:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }
 
 #equals {
@@ -908,78 +1712,102 @@ h1 {
   padding-left: 110px;
 }
 #zero:hover:nth-of-type(1) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(2) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(3) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(4) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(5) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(6) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(7) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(8) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(9) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(10) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(11) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(12) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(13) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(14) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(15) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(16) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(17) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(18) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
 }
 #zero:hover:nth-of-type(19) {
+  scale: 95%;
   background-color: #fcb1a8;
   font-size: 60px;
+}
+#zero:hover:has(~ .number:hover) {
+  scale: 95%;
+  font-size: 55px;
+  background-color: gray;
 }/*# sourceMappingURL=main.css.map */
